@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "connection-analyzer",
+  "version": "1.0.0",
+  "name": "Connection Analyzer",
+  "description": "Diagnostics for Minecraft server connections.",
+  "authors": [
+    "Gemini"
+  ],
+  "contact": {
+    "sources": "https://github.com/example/connection-analyzer"
+  },
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.connanalyzer.ConnectionAnalyzerClient"
+    ],
+    "main": [
+      "com.connanalyzer.ConnectionAnalyzerMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "minecraft": "~1.21",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
